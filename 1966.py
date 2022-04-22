@@ -19,7 +19,7 @@ for t in range(T):
         if max_important[0] == important[0]:
             max_important.pop(0)
             important.popleft()
-            if index[0]==value:
+            if index[0]==D:
                 print(value+1)
                 break
             else:
