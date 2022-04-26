@@ -2,8 +2,8 @@ import sys
 
 parenthesis=sys.stdin.readline()
 parenthesis=list(parenthesis)
-stack=[]
-check=True
+stack = []
+check = True
 
 for i, w in enumerate(parenthesis):
     if w =='(' or w == '[':
